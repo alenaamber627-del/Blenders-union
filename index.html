@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Union of Cassava Blenders (UCB) - Portal</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome for interactive icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gallery-card:hover .gallery-overlay { opacity: 1; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans scroll-smooth">
+
+    <!-- FEATURE 1: LIVE MARQUEE NOTIFICATION BANNER -->
+    <div class="bg-yellow-500 text-slate-900 text-xs font-bold py-2 overflow-hidden whitespace-nowrap shadow-inner border-b border-yellow-600">
+        <div class="inline-block animate-marquee uppercase tracking-wider pl-[100%]">
+            ⚠️ NOTICE: Registration for the 2026 Batch is now officially open. | Next Executive Strategy meeting scheduled for next month at the Mkpani Secretariat. | Ensure all payment references are uploaded correctly.
+        </div>
+    </div>
+    <style>
+        @keyframes marquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
+        .animate-marquee { animation: marquee 25s linear infinite; }
+        .animate-marquee:hover { animation-play-state: paused; }
+    </style>
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="bg-gradient-to-r from-emerald-800 via-green-800 to-emerald-900 text-white shadow-xl sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-4 md:mb-0">
+                <div class="bg-white text-emerald-800 p-2.5 rounded-2xl font-black text-2xl tracking-wider shadow-md">UCB</div>
+                <div>
+                    <h1 class="text-xl font-extrabold tracking-wide">UNION OF CASSAVA BLENDERS</h1>
+                    <p class="text-xs text-green-300 uppercase tracking-widest font-semibold">Official Union Portal</p>
+                </div>
+            </div>
+            <nav class="flex flex-wrap justify-center items-center gap-6 text-sm font-medium">
+                <a href="#about" class="hover:text-yellow-400 transition-colors">About</a>
+                <a href="#leadership" class="hover:text-yellow-400 transition-colors">Leadership</a>
+                <a href="#gallery" class="hover:text-yellow-400 transition-colors">Meeting Gallery</a>
+                <a href="#resources" class="hover:text-yellow-400 transition-colors">Resources</a>
+                <a href="#register" class="bg-yellow-500 text-slate-900 px-5 py-2 rounded-xl font-bold shadow hover:bg-yellow-400 transition-all transform hover:scale-105">Join Portal</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION WITH AGRI-THEMED BACKGROUND -->
+    <section class="relative bg-gradient-to-b from-emerald-900 to-slate-900 text-white py-24 px-6 text-center overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&q=80');"></div>
+        <div class="container mx-auto max-w-3xl relative z-10">
+            <span class="bg-emerald-700/60 text-emerald-300 text-xs uppercase px-4 py-1.5 rounded-full font-bold tracking-widest border border-emerald-500/30">Mkpani Chapter, CRS</span>
+            <h2 class="text-4xl md:text-6xl font-black mt-6 mb-6 leading-tight">Empowering Agro-Processors Across Yakurr LGA</h2>
+            <p class="text-lg text-slate-300 mb-10 max-w-2xl mx-auto">Unifying agricultural blenders, modern commercial processors, and localized distributors to scale financial baseline opportunities.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#register" class="bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-extrabold px-8 py-4 rounded-xl shadow-lg transition-all transform hover:-translate-y-1">Get Registered Online</a>
+                <a href="#gallery" class="bg-slate-800/80 border border-slate-700 hover:bg-slate-800 text-white font-semibold px-8 py-4 rounded-xl transition-all">View Meeting Photos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- HISTORICAL TIMELINE SECTION -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h3 class="text-xs font-bold tracking-widest text-emerald-700 uppercase mb-2">Our Journey</h3>
+                <h2 class="text-3xl font-extrabold text-slate-950">History & Milestones</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-xs relative">
+                    <div class="text-3xl font-black text-emerald-700 mb-2">2021</div>
+                    <h4 class="font-bold text-slate-900 mb-2">The Splitting & Renaming</h4>
+                    <p class="text-sm text-slate-600">UCB was officially carved out from Ajere ACA and established as an independent cooperative body focused on local processing rights.</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-xs relative">
+                    <div class="text-3xl font-black text-emerald-700 mb-2">2021 - 2026</div>
+                    <h4 class="font-bold text-slate-900 mb-2">Foundational Foundation</h4>
+                    <p class="text-sm text-slate-600">The administration of the union was successfully structured and managed under the steady leadership of Iwara Tom Eteng.</p>
+                </div>
+                <div class="bg-emerald-800 p-6 rounded-2xl text-white shadow-md relative">
+                    <div class="text-3xl font-black text-yellow-400 mb-2">2026</div>
+                    <h4 class="font-bold text-white mb-2">A New Democratic Era</h4>
+                    <p class="text-sm text-emerald-100">In a historical local poll, Ubi Ikong Oden was elected as Chairman to completely modernize operations and launch digital integration structures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE 2: INTERACTIVE MEETING & EVENT GALLERY -->
+    <section id="gallery" class="py-20 bg-slate-100">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+                <div>
+                    <h3 class="text-xs font-bold tracking-widest text-emerald-700 uppercase mb-2">Media Center</h3>
+                    <h2 class="text-3xl font-extrabold text-slate-950">Union Activity & Meetings</h2>
+                    <p class="text-slate-600 mt-2 text-sm">Real pictures from recent stakeholder general assemblies and verification committees.</p>
+                </div>
+                <span class="mt-4 md:mt-0 bg-white text-slate-700 border border-slate-200 text-xs px-4 py-2 rounded-xl font-bold"><i class="fa-solid fa-camera text-emerald-700 mr-2"></i>Updated Live</span>
+            </div>
+
+            <!-- Photos Grid -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Image Card 1 -->
+                <div class="gallery-card relative overflow-hidden bg-slate-300 rounded-2xl aspect-video shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600" alt="Union Assembly" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="gallery-overlay absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-4 flex flex-col justify-end opacity-90 sm:opacity-0 transition-opacity duration-300">
+                        <span class="text-[10px] text-yellow-400 font-bold uppercase tracking-wider">General Assembly</span>
+                        <h4 class="text-sm font-bold text-white">Mkpani Stakeholders Session</h4>
+                    </div>
+                </div>
+
+                <!-- Image Card 2 -->
+                <div class="gallery-card relative overflow-hidden bg-slate-300 rounded-2xl aspect-video shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600" alt="Executive Meeting" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="gallery-overlay absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-4 flex flex-col justify-end opacity-90 sm:opacity-0 transition-opacity duration-300">
+                        <span class="text-[10px] text-yellow-400 font-bold uppercase tracking-wider">Executive Board</span>
+                        <h4 class="text-sm font-bold text-white">Strategy & Budget Review</h4>
+                    </div>
+                </div>
+
+                <!-- Image Card 3 -->
+                <div class="gallery-card relative overflow-hidden bg-slate-300 rounded-2xl aspect-video shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=600" alt="Processing Training" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="gallery-overlay absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-4 flex flex-col justify-end opacity-90 sm:opacity-0 transition-opacity duration-300">
+                        <span class="text-[10px] text-yellow-400 font-bold uppercase tracking-wider">Workshops</span>
+                        <h4 class="text-sm font-bold text-white">Member Capacity Building</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXECUTIVE LEADERSHIP (GRID-OPTIMIZED) -->
+    <section id="leadership" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-slate-950 mb-4">Executive Leadership Board</h2>
+                <p class="text-slate-600">The authorized management council steering economic planning and collective accountability paths.</p>
+            </div>
+
+            <!-- Tier 1: Main Executives -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div class="bg-slate-50 p-6 rounded-2xl text-center border border-slate-100 shadow-xs">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-700 mx-auto rounded-full flex items-center justify-center text-lg font-bold mb-4"><i class="fa-solid fa-user-tie"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base">Ubi Ikong Oden</h4>
+                    <p class="text-[11px] text-emerald-700 font-extrabold uppercase mt-1 tracking-wider">Chairman</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl text-center border border-slate-100 shadow-xs">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-700 mx-auto rounded-full flex items-center justify-center text-lg font-bold mb-4"><i class="fa-solid fa-user-gear"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base">Obassisam Inah Ekoh</h4>
+                    <p class="text-[11px] text-emerald-700 font-extrabold uppercase mt-1 tracking-wider">Vice Chairman</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl text-center border border-slate-100 shadow-xs">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-700 mx-auto rounded-full flex items-center justify-center text-lg font-bold mb-4"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base">Michael Egwu</h4>
+                    <p class="text-[11px] text-emerald-700 font-extrabold uppercase mt-1 tracking-wider">Secretary</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl text-center border border-slate-100 shadow-xs">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-700 mx-auto rounded-full flex items-center justify-center text-lg font-bold mb-4"><i class="fa-solid fa-file-signature"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base">Emmanuel</h4>
+                    <p class="text-[11px] text-emerald-700 font-extrabold uppercase mt-1 tracking-wider">General Secretary</p>
+                </div>
+            </div>
+
+            <!-- Tier 2: Field Ops & Communication -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                <div class="bg-slate-50 p-6 rounded-2xl text-center border border-slate-100 shadow-xs">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-700 mx-auto rounded-full flex items-center justify-center text-lg font-bold mb-4"><i class="fa-solid fa-wallet"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base">X Man Ikpi Ubi</h4>
+                    <p class="text-[11px] text-emerald-700 font-extrabold uppercase mt-1 tracking-wider">Treasurer</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl text-center border border-slate-100 shadow-xs">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-700 mx-auto rounded-full flex items-center justify-center text-lg font-bold mb-4"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base">Ibiang Inah</h4>
+                    <p class="text-[11px] text-emerald-700 font-extrabold uppercase mt-1 tracking-wider">PRO</p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl text-center border border-slate-100 shadow-xs">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-700 mx-auto rounded-full flex items-center justify-center text-lg font-bold mb-4"><i class="fa-solid fa-user-queen"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base">Kate</h4>
+                    <p class="text-[11px] text-emerald-700 font-extrabold uppercase mt-1 tracking-wider">Chairlady</p>
+                </div>
+            </div>
+
+            <!-- Tier 3: Law, Order & Security enforcement -->
+            <div class="grid sm:grid-cols-3 gap-6 mb-12">
+                <div class="bg-slate-50 p-5 rounded-xl text-center border border-slate-100">
+                    <p class="text-[10px] text-emerald-700 font-extrabold uppercase tracking-widest">Internal Order</p>
+                    <h4 class="font-bold text-slate-900 mt-1">Romeo Harma</h4>
+                    <span class="text-xs text-slate-500 block mt-0.5">Provost 2</span>
+                </div>
+                <div class="bg-slate-50 p-5 rounded-xl text-center border border-slate-100">
+                    <p class="text-[10px] text-emerald-700 font-extrabold uppercase tracking-widest">Enforcement</p>
+                    <h4 class="font-bold text-slate-900 mt-1">Aye ObetenEgom</h4>
+                    <span class="text-xs text-slate-500 block mt-0.5">Task Force Member</span>
+                </div>
+                <div class="bg-slate-50 p-5 rounded-xl text-center border border-slate-100">
+                    <p class="text-[10px] text-emerald-700 font-extrabold uppercase tracking-widest">Enforcement</p>
+                    <h4 class="font-bold text-slate-900 mt-1">Itam</h4>
+                    <span class="text-xs text-slate-500 block mt-0.5">Task Force Member</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE 3: DUAL-FUNCTION TRANSACTION FORM & REGISTRATION -->
+    <section id="register" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+        <div class="container mx-auto px-6 max-w-5xl relative z-10">
+            <div class="grid md:grid-cols-12 gap-12 items-start">
+                
+                <!-- Financial Instructions -->
+                <div class="md:col-span-5">
+                    <h2 class="text-3xl font-black mb-4">Portal Onboarding</h2>
+                    <p class="text-slate-300 mb-8 text-sm leading-relaxed">Deposit processing licensing and standard membership setup fees before filling out this secure registry form.</p>
+                    
+                    <div class="bg-slate-800/90 backdrop-blur-md p-6 rounded-2xl border border-slate-700/60 shadow-xl">
+                        <span class="text-xs font-bold uppercase text-yellow-400 tracking-wider">Standard Processing Fee</span>
+                        <div class="text-4xl font-black text-white mt-1 mb-6">₦12,000</div>
+                        
+                        <div class="space-y-4 text-xs border-t border-slate-700/80 pt-4 text-slate-300">
+                            <div>
+                                <span class="text-slate-400 block uppercase font-medium">Bank Channel</span>
+                                <strong class="text-white text-sm">Moniepoint Bank</strong>
+                            </div>
+                            <div>
+                                <span class="text-slate-400 block uppercase font-medium">Account Designation</span>
+                                <strong class="text-white text-sm tracking-wider">7033487556</strong>
+                            </div>
+                            <div>
+                                <span class="text-slate-400 block uppercase font-medium">Account Holder Name</span>
+                                <strong class="text-white text-sm">Michael Egwu</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Registration Form With Web3Forms System -->
+                <div class="md:col-span-7 bg-white text-slate-900 p-8 rounded-2xl shadow-2xl border border-slate-100">
+                    <h3 class="text-lg font-bold mb-6 text-slate-900 flex items-center gap-2">
+                        <i class="fa-solid fa-file-invoice text-emerald-700"></i> Identity Verification Forms
+                    </h3>
+                    
+                    <form action="https://api.web3forms.com/submit" method="POST" class="grid sm:grid-cols-2 gap-4">
+                        <input type="hidden" name="access_key" value="06e09ce0-ebba-4824-8a27-2e3991521f5a">
+                        <input type="hidden" name="subject" value="URGENT: New UCB Portal Profile Submitted">
+                        <input type="hidden" name="from_name" value="UCB Verification Node">
+
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Full Legal Name</label>
+                            <input type="text" name="Full Name" placeholder="Full name details" required class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Phone Number</label>
+                            <input type="tel" name="Phone Number" placeholder="Active phone lines" required class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors">
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Residential Address</label>
+                            <input type="text" name="Address" placeholder="Street layout details..." required class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Union Occupation Role</label>
+                            <select name="Role Type" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors">
+                                <option>Cassava Blender</option>
+                                <option>Commercial Processor</option>
+                                <option>Wholesale Trader</option>
+                                <option>Logistics Channel Partner</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Village Ward</label>
+                            <input type="text" name="Village" placeholder="Mkpani" required class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Next of Kin Name</label>
+                            <input type="text" name="Next of Kin" placeholder="Beneficiary name" required class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-[11px] font-bold uppercase text-slate-500 mb-1">Payment Reference ID</label>
+                            <input type="text" name="Payment Reference ID" placeholder="Txn Ref code" required class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors">
+                        </div>
+                        <button type="submit" class="sm:col-span-2 mt-2 bg-emerald-700 hover:bg-emerald-600 text-white font-bold py-3.5 px-4 rounded-xl shadow-lg transition-all w-full">
+                            Transmit Profiles Data
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CHANNELS -->
+    <footer id="contact" class="bg-slate-950 text-slate-400 pt-16 pb-8 border-t border-slate-900">
+        <div class="container mx-auto px-6 max-w-5xl text-center text-xs">
+            <p>&copy; 2026 Union of Cassava Blenders (UCB). All Rights Reserved. Created by Michael Egwu</p>
+        </div>
+    </footer>
+
+    <!-- FEATURE 4: FLOATING LIVE WHATSAPP CONTACT ACTION -->
+    <a href="https://wa.me/2347033487556" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl text-2xl transition-all transform hover:scale-110 hover:rotate-6 z-50 animate-bounce">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
